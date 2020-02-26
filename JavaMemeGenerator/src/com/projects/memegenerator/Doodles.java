@@ -28,8 +28,8 @@ public class Doodles {
 	public static void main(String[] args) {
 		Doodles doodle = new Doodles();
 		doodle.readImage("/Users/caseyasher/Projects/images/profile.jpg");
-		doodle.configureImage("This is branden's happy dog blah blah blah", "Top");
-		doodle.configureImage("This is branden's happy dog", "Bottom");
+		doodle.configureImage("input text here test test test test test", "Top");
+		doodle.configureImage("input text here test test test test test", "Bottom");
 		doodle.writeImage("/Users/caseyasher/Projects/images/Doodles/out.jpg");
 
 	}
